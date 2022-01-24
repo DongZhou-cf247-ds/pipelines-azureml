@@ -9,7 +9,7 @@ variables:
   ml-model-name: 'test-ado-model' # Model name
   ml-aks-name: 'aks-prod' # AKS cluster name
 
-trigger:
+pr:
 - master
 
 pool:
